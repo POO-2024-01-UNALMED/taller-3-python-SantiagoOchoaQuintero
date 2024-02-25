@@ -8,7 +8,7 @@ class TV:
          self._precio = 500
          self._numTV = 1
 
-    def setNumTV(numTV, self = TV):
+    def setNumTV(numTV, self = 'TV'):
         self._numTV = numTV
 
     def getNumTV(self):
