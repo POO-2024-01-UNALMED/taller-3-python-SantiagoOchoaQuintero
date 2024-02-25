@@ -8,7 +8,7 @@ class TV:
          self._canal = 1
          self._volumen = 1
          self._precio = 500
-         _numTV = _numTV + 1
+        #  _numTV = _numTV + 1
 
     def setNumTV(numTV):
         _numTV = numTV
