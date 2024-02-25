@@ -8,13 +8,13 @@ class TV:
          self._canal = 1
          self._volumen = 1
          self._precio = 500
-         self._numTV = self._numTV + 1
+         _numTV = _numTV + 1
 
-    def setNumTV(self, numTV):
-        self._numTV = numTV
+    def setNumTV(numTV):
+        _numTV = numTV
 
-    def getNumTV(self):
-        return self._numTV
+    def getNumTV():
+        return _numTV
 
     def getControl(self):
         return self._control
