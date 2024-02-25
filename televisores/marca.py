@@ -1,4 +1,4 @@
-class Marca:
+class Marca():
     def __init__(self, marca):
         self._nombre = marca
     def getNombre(self):
