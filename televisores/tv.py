@@ -13,8 +13,8 @@ class TV:
     def setNumTV(numTV, _numTV = _numTV):
         _numTV = numTV
 
-    def getNumTV(self):
-        return self._numTV
+    def getNumTV():
+        return TV._numTV
 
     def getControl(self):
         return self._control
